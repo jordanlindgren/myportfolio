@@ -1,0 +1,105 @@
+header,
+nav,
+section,
+aside,
+article {
+  border: 1px solid #ccc;
+}
+
+body {
+  box-sizing: 0;
+  margin: 0;
+  padding: 0;
+  background-color: darkgray;
+}
+
+li,
+a,
+button {
+  font-family: "Teko", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px 10%;
+}
+
+.navlink {
+  list-style: none;
+}
+
+.navlink li {
+  display: inline-block;
+  padding: 20px;
+}
+
+.logo {
+  cursor: pointer;
+  height: 100px;
+  margin-right: auto;
+}
+
+.navlink li a:hover {
+  color: rgb(11, 141, 247);
+}
+
+button {
+  background-color: rgb(49, 113, 197);
+  border: none;
+  border-radius: 50px;
+}
+
+button:hover {
+  padding: 7px 10px;
+  background-color: rgb(30, 136, 223);
+  border-radius: 50px;
+}
+
+.mypic {
+  border-radius: 20px;
+}
+section {
+  background-color: rgb(63, 63, 66);
+  width: 100%;
+  margin-left: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content {
+  width: auto;
+}
+
+.content1 {
+  font-size: 30px;
+  text-align: center;
+  width: 66%;
+}
+
+.bulletpoints {
+  font-family: "Teko", sans-serif;
+  margin-top: 10%;
+  font-size: 32px;
+}
+article {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10px;
+}
+
+.hw01 {
+  border-radius: 20px;
+  width: 600px;
+}
+
+.github {
+  padding-left: 5px;
+  border-radius: 20px;
+  width: 600px;
+}
