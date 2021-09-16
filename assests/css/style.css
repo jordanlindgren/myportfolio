@@ -61,9 +61,10 @@ button:hover {
   border-radius: 50px;
 }
 
-.mypic {
+#mypic {
   border-radius: 20px;
 }
+
 section {
   background-color: rgb(63, 63, 66);
   width: 100%;
@@ -90,16 +91,36 @@ section {
 article {
   display: flex;
   flex-wrap: wrap;
+  justify-content: left;
   margin-left: 10px;
 }
 
 .hw01 {
   border-radius: 20px;
-  width: 600px;
+  width: 400px;
 }
 
 .github {
-  padding-left: 5px;
   border-radius: 20px;
-  width: 600px;
+  width: 400px;
+}
+.linkedin {
+  border-radius: 20px;
+  width: 400px;
+  height: 183px;
+}
+
+.hw01:hover {
+  transition: 0.2s;
+  padding: 4px;
+}
+
+.github:hover {
+  transition: 0.2s;
+  padding: 4px;
+}
+
+.linkedin:hover {
+  transition: 0.2s;
+  padding: 4px;
 }
