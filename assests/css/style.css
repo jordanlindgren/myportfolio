@@ -1,9 +1,27 @@
 body {
+  width: auto;
   box-sizing: 0;
   margin: 0;
   padding: 0;
-  background-color: darkgray;
+	background: linear-gradient(-45deg, #ec4614, #b84672, #10a1d6, #d7faf2);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
 }
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
 
 li,
 a,
@@ -15,6 +33,7 @@ button {
 }
 
 header {
+  width: auto;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -55,11 +74,13 @@ button:hover {
 }
 
 #mypic {
+  margin-top: 5px;
   border-radius: 20px;
   margin-left: 10px;
 }
 
 section {
+  width: auto;
   background-color: rgb(63, 63, 66);
   width: 100%;
   margin-left: auto;
@@ -84,6 +105,8 @@ section {
   align-items: left;
 }
 article {
+  width: auto;
+  margin-top: 5px;
   display: flex;
   flex-wrap: wrap;
   justify-content: left;
@@ -166,17 +189,17 @@ article {
 @media screen and (max-width: 773px){
 
   @media screen and (max-width: 772px) {
-    section, header, nav, aside, article {
+    section, header, nav, aside, article, footer {
       width: 100%;
       justify-content: center;
+      padding: 0px;
     }
 
     @media screen and (max-width: 9002x){
 
       @media screen and (max-width: 992px) {
-        section, header, nav, aside, article {
+        section, header, nav, aside, article, footer {
           width: 100%;
           justify-content: center;
+          padding: 0px;
         }
-      
-
