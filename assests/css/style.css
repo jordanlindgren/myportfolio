@@ -9,8 +9,7 @@ li,
 a,
 button {
   font-family: "Teko", sans-serif;
-  font-weight: 500;
-  font-size: 14px;
+  font-size: 20px;
   color: white;
   text-decoration: none;
 }
@@ -39,6 +38,7 @@ header {
 
 .navlink li a:hover {
   color: rgb(11, 141, 247);
+  transition: 0.3s;
 }
 
 button {
@@ -48,6 +48,7 @@ button {
 }
 
 button:hover {
+  transition: 0.3s;
   padding: 7px 10px;
   background-color: rgb(30, 136, 223);
   border-radius: 50px;
