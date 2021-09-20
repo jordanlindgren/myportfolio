@@ -6,7 +6,7 @@ body {
   background: linear-gradient(-45deg, #ec4614, #b84672, #10a1d6, #d7faf2);
   background-size: 400% 400%;
   animation: gradient 13s ease infinite;
-  height: 100vh;
+  height: 100%;
 }
 
 @keyframes gradient {
@@ -106,7 +106,7 @@ article {
   margin-top: 5px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: left;
+  justify-content: center;
 }
 
 .hw01 {
